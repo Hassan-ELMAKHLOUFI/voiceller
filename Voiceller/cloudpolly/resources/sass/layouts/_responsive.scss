@@ -1,0 +1,108 @@
+/* ==========================================================================           
+ *
+ *    BACKEND RESPONSIVE STYLES
+ *
+ * ========================================================================== */
+@media (max-width: 768px) {
+    .header-brand-img {
+        display: none;
+    }
+
+    .header-brand {
+        min-width: 30px!important;
+    }
+
+    .app-header .header-brand-img.mobile-logo {
+        display: block!important;
+        height: 3rem;
+    }
+
+    #search-bar {
+        display: none;
+    }
+
+    .header-notify {
+        display: none;
+    }
+
+    .header-expand {
+        display: none;
+    }
+
+    #tts-body-minify {
+        padding-left: 1.5rem!important;
+    }
+
+    #listen-text {
+        margin-right: 0!important;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* ==========================================================================           
+ *
+ *    FRONTEND RESPONSIVE STYLES
+ *
+ * ========================================================================== */
+@media (max-width: 768px) {
+
+    .central-banner {
+        .pl-9 {
+            padding-left: 0!important;
+        }
+
+        .pr-9 {
+            padding-right: 0!important;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .image-container {
+            display: none;
+        }
+
+    }
+
+    #login-responsive {
+        .card-body {
+            padding: 5rem 1.5rem!important;
+        }
+
+        #login-footer {
+            position: relative;
+            left: auto!important;
+        }
+    }
+
+    #login-background {
+        display: none;
+    }
+
+    .nav-item {
+        width: 100%!important;
+    }
+
+    #footer {
+        padding-left: 3rem!important;
+    }
+
+    .frontend-body {
+
+        .navbar {
+            padding: 0;
+        }
+        
+        .navbar-collapse {
+            background: #FFF;
+            padding: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+        }
+    }
+}

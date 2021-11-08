@@ -1,0 +1,1340 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.frontend-body {
+  background: #fff;
+}
+
+.blue-background {
+  background: #f5f9fc;
+}
+
+/* ==========================================================================           
+ *
+ *    MAIN SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #main-wrapper {
+
+    /*------------------------------------------*/
+    /*    Navigation
+    /*------------------------------------------*/
+
+    .navbar {
+        background: transparent;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 50px;
+        z-index: 100;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        -webkit-transition: all ease-in 0.2s;
+        transition: all ease-in 0.2s;
+    }
+    
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #login-button {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background: $primaryTextColor;
+
+        &:hover, &:focus {
+            background: $primaryTextActiveColor;
+        }
+    }
+
+    .navbar-nav li.nav-item a.nav-link {
+        text-transform: uppercase;
+        padding: 0px 15px;
+        color: $primaryTextColor;
+        text-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+
+        .active {
+          color: $primaryTextActiveColor!important;
+        }
+
+        &:hover, &:focus {
+            color: $primaryTextActiveColor;
+        }
+    }
+
+    .navbar-nav li.nav-item a.active {
+    
+        color: $primaryTextActiveColor!important;
+      
+    }
+
+    .navbar-nav li.nav-item .action-button {
+        background: $primaryTextActiveColor;
+        outline: none;
+        text-decoration: none;
+        min-width: 125px;
+        color: #FFF;
+        padding: .375rem .75rem;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        box-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);
+
+        &:hover, &:focus {
+            background: $primaryTextColor;
+        }
+    }
+
+    .register-button, 
+    .dashboard-button {
+      background: #ffab00!important;
+
+      &:hover, &:focus {
+        background: $primaryTextColor!important;
+      }
+    }
+    
+    .minimize-navbar {
+        line-height: 60px;    
+        background: rgba(0, 0, 0, 1);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    
+    .minimize-menu {
+        color: #141414!important;
+    }
+
+    #bg-shape {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -10;
+     }
+
+    .central-banner {
+        position: absolute;
+        width: 100%;
+        top: 23%;
+    }
+
+    .text-container {
+
+        h2 {
+            font-weight: 800;
+            text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+
+            span {
+                color: $primaryTextActiveColor;
+            }
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+
+        a {
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            &:hover, &:focus {
+                background: #1e1e2d;
+                border-color: #1e1e2d;
+            }
+        }
+
+        .vendors {
+            margin-top: 8rem;
+
+            h6 {
+                font-size: 12px;
+                font-weight: 800;
+                text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+            }
+        }
+    }
+ }
+ 
+
+ /* ==========================================================================           
+ *
+ *    LIVE DEMO STYLES
+ *
+ * ========================================================================== */
+
+ #demo-wrapper {
+
+  #frontend-language-select {
+    margin-bottom: 0.8rem;
+  }
+
+   
+}
+
+
+
+/* ==========================================================================           
+ *
+ *    ABOUT SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #about-wrapper {
+    padding: 0 0 112px 0;
+    background: #FFF;
+
+    #about-us {
+        margin-bottom: 96px;
+      }
+      
+      h6 {
+        font-size: 16px;
+        font-weight: 800;
+
+        span {
+            color: $primaryTextActiveColor;
+        }
+    }
+
+    .p-about {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+    }
+
+      #about-title {
+        text-align: right;
+        padding-right: 64px;
+    
+      }
+      
+      #about-info {
+        text-align: left;
+    
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+        }
+      }
+      
+      #about-info p:last-of-type {
+        margin-bottom: 1.7rem;
+      }
+      
+      #about-info a {
+        font-family: 'Poppins', sans-serif;
+        padding: .4rem 2rem;
+        background-color: $primaryTextActiveColor;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        border-radius: 0.3rem;
+        outline: none;
+        text-decoration: none;
+        line-height: 1.5;
+        transition: all ease 0.3s;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        box-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);
+      }
+      
+      #about-info a:hover {
+        background-color: $primaryTextColor;
+      }
+      
+      #pills-tab {
+          .nav-item {
+              width: 33.3%;
+              transition: all ease 0.3s;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            
+            .nav-link {
+                padding: 1rem;    
+            }
+
+            .nav-link.active {
+                background: #1e1e2d;
+                box-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);
+            }
+            
+        }
+
+      }
+
+      #pills-tabContent {
+        h4 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+        }
+
+        a {
+            text-transform: none;
+            background: #1e1e2d;
+            border-color: #1e1e2d;
+            font-size: 12px;
+
+            &:hover {
+                background: #007bff;
+                border-color: #007bff;
+            }
+        }
+    }
+      
+ }
+
+
+/* ==========================================================================           
+ *
+ *    PARTNERS STYLES
+ *
+ * ========================================================================== */
+
+ #partners-banner {
+    background: #161E2C;
+    padding: 112px 0 112px 0;
+
+ #partner-group {
+        text-align: left;
+        color: #FFF;
+        padding-right: 48px;
+      }
+      
+     #partner-group h6 {
+          font-size: 16px;
+          font-weight: 800;
+          margin-bottom: 2rem;
+      }
+      
+     #partner-group span {
+        color: #007bff;
+      }
+      
+     #partner-group p {
+        font-size: 14px;
+        text-align: justify;
+      }
+      
+      /*------------------------------------------*/
+      /*    Partner Logos
+      /*------------------------------------------*/
+      
+     #partner-logo {
+        padding: 0px 32px;
+      }
+      
+     #partner-logo ul {
+        list-style: none;
+        overflow: hidden;
+        padding-left: 0px;
+      }
+      
+     #partner-logo ul li {
+        float: left;
+        width: 120px;
+        height: 120px;
+        background: #FFF;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+    
+        img {
+            width: 100%;
+        }
+    
+        &:hover, &:focus {
+            box-shadow: 0 1px 6px rgba(0, 123, 255, 1);
+        }
+      }
+  }
+  
+
+  /* ==========================================================================           
+ *
+ *    USE CASES SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #cases-wrapper {
+  background:  #f5f9fc;
+  padding: 0 0 112px 0;
+
+  .title h6 {
+      font-size: 16px;
+      font-weight: 800;
+
+      span {
+          color: $primaryTextActiveColor;
+      }
+  }
+
+  .title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+
+  .mdi {
+      line-height: 1;
+  }
+
+  #solutions-list .solution {
+      background-color: #FFF;
+      box-shadow: 0 1px 6px rgba(57,73,76,.35);
+      border-radius: 10px;
+      height: 100%;
+      text-align: center;
+      position: relative;
+      transition: all 0.5s ease;
+  
+      &:hover i, &:focus i {
+          color: $primaryTextActiveColor;
+      }
+    }
+    
+    #solutions-list .solution:hover {
+      box-shadow: 0 1px 6px rgba(0, 123, 255, 0.9);
+    }
+    
+    #solutions-list .solution-content {
+      padding: 20px 20px 10px 20px;
+    }
+    
+    #solutions-list .solution-content h5 {
+      color: $primaryTextActiveColor;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    
+    #solutions-list .solution-content i {
+      font-size: 32px;
+      margin-bottom: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    
+    #solutions-list .solution-content p {
+      font-size: 13px;
+    }
+  
+    .green-audio-player {
+      box-shadow: none!important;
+      padding-left: 0;
+        padding-right: 0;
+        width: auto;
+      min-width: auto;
+      height: 50px;
+  
+      .slider .progress .pin {
+        background-color: $primaryTextColor;
+      }
+  
+      .controls span {
+        color: $primaryTextColor;
+      }
+  
+      .controls {
+        color: $primaryTextColor;
+        font-size: 10px;
+        margin-left: 20px;
+      }
+  
+      .slider .gap-progress .pin {
+        background: $primaryTextColor;
+      }
+  
+      .slider .gap-progress {
+        background: $primaryTextColor;
+      }
+    }
+}
+
+
+/* ==========================================================================           
+ *
+ *    FEATURES SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #features-wrapper {
+    background:  #fff;
+    padding: 112px 0 112px 0;
+
+    .title h6 {
+        font-size: 16px;
+        font-weight: 800;
+
+        span {
+            color: $primaryTextActiveColor;
+        }
+    }
+
+    .title p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+    }
+
+    .mdi {
+        line-height: 1;
+    }
+
+    #solutions-list .solution {
+        border-top: 7px solid #161E2C;
+        background-color: #FFF;
+        box-shadow: 0 1px 6px rgba(57,73,76,.35);
+        height: 100%;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        transition: all 0.5s ease;
+    
+        &:hover i, &:focus i {
+            color: $primaryTextActiveColor;
+        }
+      }
+      
+      #solutions-list .solution:hover {
+        box-shadow: rgb(101 119 134 / 20%) 0px 5px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 3px;
+        
+      }
+      
+      #solutions-list .solution-content {
+        padding: 20px 32px;
+      }
+      
+      #solutions-list .solution-content h5 {
+        color: $primaryTextActiveColor;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      
+      #solutions-list .solution-content i {
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+        margin-top: 0.5rem;
+      }
+      
+      #solutions-list .solution-content p {
+        font-size: 13px;
+        margin-bottom: 3rem;
+      }
+ }
+
+
+/* ==========================================================================           
+ *
+ *    PRICES SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #prices-wrapper {
+    padding: 0 0 64px 0;
+    background-color: #FFF;
+
+    .title h6 {
+        font-size: 16px;
+        font-weight: 800;
+
+        span {
+            color: $primaryTextActiveColor;
+        }        
+    }
+
+    .title p {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+    }
+
+    .tabs-menu ul {
+      padding: 10px;
+      background: #f5f9fc;
+      border-radius: 7px;
+    }
+
+    .tabs-menu ul li a {
+      width: auto;
+      text-transform: none;
+    }
+
+    .card {
+        box-shadow: $special-shadow!important;
+        transition: all 0.2s;
+    
+        &:hover, &:focus {
+    
+            box-shadow: 0 0 12px rgba(33,33,33,.2)!important;
+    
+            .plan-cost {
+                color: $primaryTextActiveColor;
+            }
+    
+            .prepaid-plan {
+                .plan-cost {
+                    color:rgb(102, 102, 102);
+                }
+    
+                .plan-title {
+                    color: $primaryTextActiveColor;
+                }
+            }
+        }        
+    
+        .plan {
+            min-height: 450px;
+        }	
+    
+        .plan-cost {
+            font-size: 40px;
+            font-weight: 800;
+            color: rgb(102, 102, 102);
+            padding-left: 17px;
+            padding-right: 5px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    
+        .welcome-plan-currency-sign {
+            font-size: 20px;
+            margin-bottom: 20px;
+            position: absolute;
+            top: 25px;
+            color: #ccc;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+        }
+    
+        .divider {
+            background-color: rgb(230, 230, 230);
+            border-radius: 5px;
+            height: 3px;
+            width: 40px;
+        }
+    
+        .plan-title {
+            font-size: 24px;
+            font-weight: 800;
+            font-family: 'Open Sans';
+            margin-bottom: 1rem;
+        }
+    
+        ul li {
+            margin-bottom: 0.3rem;
+    
+            i {
+                margin-right: 0.3rem;
+            }
+        }
+    
+        .plan-action-button {
+            position: absolute;
+            bottom: 30px;
+            left: 22%;
+    
+            button {
+                width: 145px;
+            }
+    
+            a {
+                width: 145px;
+                font-size: 12px;
+    
+                &:hover, &:focus {
+                    background: #161E2C;
+                    border-color: #161E2C;
+                }
+            }
+        }
+    
+    }
+ }
+
+  /*------------------------------------------*/
+  /*    Curve Box Styles 
+  /*------------------------------------------*/
+  #curve-container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+.curve-box {
+  position: relative;
+
+  .curve {
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    bottom: -2px;
+    left: 0;
+
+    svg {
+      transform: scale(2);
+      width: 100%;
+      height: auto;
+      transform-origin: top center;
+    }
+  }
+}
+ 
+
+/* ==========================================================================           
+ *
+ *    CUSTOMER FEEDBACKS SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #feedbacks-wrapper {
+    background:  #f5f9fc;
+    padding: 0 0 128px 0;
+
+    .row {
+        display: block;
+    
+        .title h6 {
+            font-size: 16px;
+            font-weight: 800;
+            color: $primaryTextColor;
+    
+            span {
+                color: $primaryTextActiveColor;
+            }
+        }
+
+        .title p {
+          font-family: 'Poppins', sans-serif;
+          font-size: 12px;          
+        }
+    }
+      
+      #feedbacks {
+        padding:  16px 20% 0;
+      }
+      
+      /*------------------------------------------*/
+      /*    Feedback Commenter 
+      /*------------------------------------------*/
+      
+      #feedbacks .slick-slide img {
+        display: inline-block;
+        margin-bottom: 18px;
+      }
+      
+      #feedbacks .slick-dots {
+        position: relative;
+        bottom: 0px;
+      }
+      
+      #feedbacks .slick-dots li button:before {
+        color: #1c5c7f;
+        line-height: 0;
+      }
+      
+      #feedbacks .slick-dots li.slick-active button:before {
+        color: $primaryTextActiveColor;
+        line-height: 0;
+      }
+      
+      #feedbacks .slick-slide:hover {
+        cursor: pointer
+      }
+      
+      .feedback .feedback-reviewer {
+        margin-bottom: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        color: $primaryTextActiveColor;
+      }
+      
+      .feedback img {
+        padding: 3px;
+        border: 1px solid rgba(94, 109, 129, 0.3);
+        width: auto!important;
+      }
+      
+      .feedback .feedback-image {
+        text-align: center;
+        padding-left: 25px;
+      }
+      
+      .feedback .feedback-image span {
+        position: relative;
+        top: -40px;
+        left: -25px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: $primaryTextActiveColor;
+        color: #FFF;
+        line-height: 25px;
+        font-size: 10px;
+      }
+      
+      .feedback p {
+        margin-bottom: 32px;
+      }
+      
+      /*------------------------------------------*/
+      /*    Feedback Comment
+      /*------------------------------------------*/
+      
+      .feedback .comment {
+        font-size: 14px;
+        font-style: italic;
+      }
+      
+      .feedback .comment span {
+        font-size: 10px;
+      }
+      
+      .feedback span {
+        font-size: 12px;
+        color: rgba(94, 109, 129, 0.8);
+      }
+      
+      .feedback ul {
+        padding: 0;
+        color: #FFA838;
+        font-size: 14px;
+      }
+      
+      .position-relative {
+        position: relative!important;
+      }
+    
+      /*------------------------------------------*/
+      /*    Action Banner
+      /*------------------------------------------*/
+    
+      .action-call-wrapper {
+        margin-top: 64px;
+        background: #161E2C;
+        border-radius: 10px;
+        z-index: 1;
+        padding: 100px 0px;
+        box-shadow: $card-shadow;
+      }
+    
+      #action-call {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #258aff !important;
+        transform: rotate(-3deg) !important;
+        border-radius: 10px;
+        z-index: -1;
+        height: 100%!important;
+        width: 100%!important;
+        box-shadow: $card-shadow;
+      }
+    
+      .action-content {
+          color: #FFF;
+    
+          h5 {
+              font-size: 16px;
+              font-weight: 800;
+          }
+    
+          h4 {
+              font-size: 30px;
+              font-weight: 800;
+          }
+    
+          a {
+              font-size: 12px;
+              background-color: $primaryTextColor;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              text-transform: none;
+
+              &:hover {
+                background: #FFA838;
+                border-color: #FFA838;
+              }
+          }
+    
+      }
+  }
+  
+  
+/* ==========================================================================           
+ *
+ *    Contact Us SECTION STYLES
+ *
+ * ========================================================================== */
+ .row {
+  
+  .title h6 {
+      font-size: 16px;
+      font-weight: 800;
+      color: $primaryTextColor;
+
+      span {
+          color: $primaryTextActiveColor;
+      }
+  }
+
+  .title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;          
+  }
+ }
+
+ #contact-wrapper {
+  background:  #FFF;
+  padding: 0 0 128px 0;
+
+  #contact-row {
+    display: block;
+  }
+
+  .row {
+  
+      label {
+        font-family: 'Lato', sans-serif;
+      }
+
+      button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        background-color: $primaryTextActiveColor;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-transform: none;
+        font-weight: 700;
+
+        &:hover {
+          background: $primaryTextColor;
+          border-color: $primaryTextColor;
+        }
+    }
+  }
+}
+
+
+/* ==========================================================================           
+ *
+ *    BLOG SECTION STYLES
+ *
+ * ========================================================================== */
+
+ #blog-wrapper {
+  background:  #FFF;
+  padding: 0 0 90px 0;
+
+  #contact-row {
+    display: block;
+  }
+
+  .blog-box {
+    min-height: 300px;
+    padding: 0.3rem;    
+    transition: transform .2s;
+
+    img {
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform .2s;
+      box-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);
+    }
+
+    .blog-info {
+      position: absolute;
+      bottom: 0;
+      color: #FFF;
+      padding: 1rem 1.5rem;
+    }
+
+    &:hover, &:focus {
+      transform: scale(0.97);
+    }
+  }
+
+  .blog {
+    max-height: 300px;
+    margin-bottom: 4rem;
+
+    img {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px 0 rgb(50 50 50 / 20%), 0 2px 1px -1px rgb(50 50 50 / 12%), 0 1px 1px 0 rgb(50 50 50 / 14%);
+      width: 100%;
+    }
+  }
+}
+
+/* ==========================================================================           
+ *
+ *    FOOTER STYLES
+ *
+ * ========================================================================== */
+
+#welcome-footer {
+    background-color: #161E2C;
+
+    #footer {
+        padding: 96px 0 64px 0;
+    }
+
+    h5 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    ul {
+        text-align: left;
+        font-size: 12px;
+
+        li {
+            border-bottom: none;
+        }
+
+        li a {
+            font-family: 'Lato', sans-serif;
+            color: #BEC0C2;
+            line-height: 1.8em;
+            outline: none;
+
+            &:hover, &:focus {
+                color: $primaryTextActiveColor;
+                text-decoration: none;
+            }
+        }
+    }
+
+    #footer-logo {
+        text-align: left;
+        padding-right: 48px;
+
+        img {
+            margin-top: -25px;
+            margin-left: -20px;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            font-size: 12px;
+            line-height: 2em;
+            color: #BEC0C2;
+    
+            a {
+                font-size: 12px;
+                color: $primaryTextActiveColor;
+    
+                &:hover, &:hover i {
+                    color: #1c5c7f;
+                    text-decoration: none;
+                }
+            }
+    
+            i {
+                margin-left: 4px;
+                color: $primaryTextActiveColor;
+                font-size: 10px;
+            }
+        }
+    }
+
+    #footer-links {
+        float: left;
+        text-align: left;
+        display: flex;
+
+        h5 {
+            color: #FFF;
+        }
+    }
+
+    #back-to-top {
+      right: 25px;
+      bottom: 23px;
+    }
+}
+
+
+  /*------------------------------------------*/
+  /*    Connection Link Icons
+  /*------------------------------------------*/
+  
+  #welcome-footer ul#footer-icons {
+    padding-top: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  #welcome-footer ul#footer-icons li.list-inline-item {
+    margin-right: 0px;
+  }
+  
+  #welcome-footer .footer-icon {
+    position: relative;
+    text-align: center;
+    color: #BEC0C2;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    line-height: 35px;
+    border: 1px solid #2b3340;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  
+  #welcome-footer #footer-icons .fa-facebook:after { box-shadow: 0 0 0 2px #3b5998; }
+  #welcome-footer #footer-icons .fa-twitter:after { box-shadow: 0 0 0 2px #55acee; }
+  #welcome-footer #footer-icons .fa-linkedin:after { box-shadow: 0 0 0 2px #007bb5; }
+  #welcome-footer #footer-icons .fa-instagram:after { box-shadow: 0 0 0 2px #e95950; }
+  #welcome-footer #footer-icons .fa-flickr:after { box-shadow: 0 0 0 2px #ff0084; }
+  #welcome-footer #footer-icons .fa-vimeo:after { box-shadow: 0 0 0 2px #aad450; }
+  
+  #welcome-footer #footer-icons .fa-facebook:hover { background-color: #3b5998; color: #FFF;}
+  #welcome-footer #footer-icons .fa-twitter:hover { background-color: #55acee; color: #FFF;}
+  #welcome-footer #footer-icons .fa-linkedin:hover { background-color: #007bb5; color: #FFF;}
+  #welcome-footer #footer-icons .fa-instagram:hover { background-color: #e95950; color: #FFF}
+  #welcome-footer #footer-icons .fa-flickr:hover { background-color: #ff0084; color: #FFF;}
+  #welcome-footer #footer-icons .fa-vimeo:hover { background-color: #aad450; color: #FFF;}
+  #welcome-footer #footer-icons .fa-google:hover { background-color: #4285F4; color: #FFF;}
+  #welcome-footer #footer-icons .fa-youtube:hover { background-color: #FF0000; color: #FFF;}
+  
+  /*------------------------------------------*/
+  /*    Copyright Styles 
+  /*------------------------------------------*/
+  
+  #welcome-footer #copyright {
+    font-family: 'Lato', sans-serif;
+    border-top: 1px solid #2b3340;
+    height: 64px;
+    padding: 24px 0px 0px 0px;
+  }
+  
+  #welcome-footer #copyright p {
+    font-size: 12px;
+    line-height: 1em;
+    color: rgba(247, 247, 247, 0.9);
+    font-weight: 700;
+  }
+  
+  #welcome-footer #copyright p a {
+    color: $primaryTextActiveColor;
+    font-size: 12px;
+  }
+  
+  #welcome-footer #copyright p a:hover {
+    color: #1c5c7f;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  #welcome-footer #copyright span {
+    color: #898989;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #welcome-footer #copyright .copyright-left {
+    float: left;
+  }
+  
+  #welcome-footer #copyright .copyright-right {
+    float: right;
+    text-align: right;
+  }
+
+
+/* ==========================================================================           
+ *
+ *    GDPR Cookie
+ *
+ * ========================================================================== */
+.js-cookie-consent{
+    position: fixed;
+    font-size: 14px;
+    bottom: 0;
+    padding: 2rem;
+    text-align: justify;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    color: $primaryTextColor;
+    box-shadow: 0 2px 16px rgb(179 186 212 / 70%) !important;
+
+    .js-cookie-consent-agree {
+        margin-left: 0.7rem;
+        margin-top: 0.5rem;
+        font-size: 10px;
+        min-width: 80px;
+        border-radius: 0.25rem;
+        padding: 0.375rem 25px;
+        text-transform: uppercase;
+        color: #fff !important;
+        background-color: $primaryTextActiveColor;
+        border-color: $primaryTextActiveColor;
+
+        &:hover, &:focus {
+            background-color: $primaryTextColor;
+            border-color: $primaryTextColor;
+        }
+    }
+  }
+
+/* ==========================================================================           
+ *
+ *    LOCALE STYLES
+ *
+ * ========================================================================== */
+
+ #frontend-local {
+    float: left;
+
+    .nav-link.icon .header-icon {
+      color: #FFF;
+      padding-left: 0;
+    }
+
+    .dropdown-menu {
+      left: -1px!important;
+      margin-top: 10px;
+      min-width: 8rem;
+
+      .dropdown-item {
+        &:hover {
+          color: $primaryTextActiveColor;
+        }
+      }
+    }
+ }
+
+ section {
+   .alert {
+     right: 1rem;
+     margin-top: 0;
+     color: #FFF!important;
+     font-family: 'Poppins', sans-serif;
+    float: right;
+   }
+ }
+
+
+ /* ==========================================================================           
+ *
+ *    ALL VOICES ACCORDION STYLES
+ *
+ * ========================================================================== */
+
+ #voices-wrapper {
+
+  background:  #FFF;
+  padding: 0 0 128px 0;
+
+  .accordion {
+
+    .card {
+      border-radius: 5px!important;
+      box-shadow: none;
+      border: 1px solid #EBECF2!important;
+      border-bottom: 1px solid #EBECF2!important;
+      overflow: visible;
+      margin-bottom: 1rem;
+
+      .card-header {
+        border-bottom: none;
+
+        .btn-link {
+          font-size: 12px;
+          color: $primaryTextColor;
+          font-weight: 600;
+
+          i {
+            margin-right: 1rem;
+          }
+
+          &:hover, &:focus {
+            color: $primaryTextHoverColor;
+            text-decoration: none;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  .voice-player {
+    position: relative;
+
+    img {
+      position: absolute;
+      padding: 0 1.5rem;
+      border: 1px solid #EBECF2;
+      border-radius: 20px;
+      background: #fff;
+      top: -15px;
+      left: 75px;
+    }
+
+    i {
+      position: absolute;
+        top: 27px;
+        right: 21px;
+    }
+
+    .voice-name {
+      font-size: 12px;
+      font-weight: 800;
+      top: 25px;
+      position: absolute;
+      left: 25px;
+      color: $primaryTextActiveColor;
+    }
+
+    .neural-voice {
+      position: absolute;
+      top: 15px;
+      font-size: 10px;
+      left: 15px;
+      font-weight: 700;
+      color: red;
+    }
+  }
+
+  .green-audio-player {
+    box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2), 0 2px 1px -1px rgba(50, 50, 50, 0.12), 0 1px 1px 0 rgba(50, 50, 50, 0.14);
+    padding-left: 100px;
+      padding-right: 25px;
+      width: auto;
+    min-width: auto;
+    height: 70px;
+
+    .slider .progress .pin {
+      background-color: $primaryTextColor;
+    }
+
+    .controls span {
+      color: $primaryTextColor;
+    }
+
+    .controls {
+      color: $primaryTextColor;
+      font-size: 10px;
+      margin-left: 20px;
+    }
+
+    .slider .gap-progress .pin {
+      background: $primaryTextColor;
+    }
+
+    .slider .gap-progress {
+      background: $primaryTextColor;
+    }
+  }
+}
+
+ 
