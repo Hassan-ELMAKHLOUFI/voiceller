@@ -1,3 +1,0 @@
-For online documentation of Cloud Polly - Ultimate Text to Speech as SaaS, visit:
-
-https://cloudpolly.berkine.space/documentation/
