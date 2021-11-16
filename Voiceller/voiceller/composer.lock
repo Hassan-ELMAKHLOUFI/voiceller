@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "525c0c9019df6c3d0e1d4822819ff283",
+    "content-hash": "49870e3f384be42c8be6f171ab650b72",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2099,16 +2099,16 @@
         },
         {
             "name": "konekt/pdf-invoice",
-            "version": "1.10.1",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/artkonekt/pdf-invoice.git",
-                "reference": "1ca5157c8a78696695c92f79efb7e6e69bb2a356"
+                "reference": "5b57433d2f30a9e8e7a5b3962aae4f71cfe2b529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/artkonekt/pdf-invoice/zipball/1ca5157c8a78696695c92f79efb7e6e69bb2a356",
-                "reference": "1ca5157c8a78696695c92f79efb7e6e69bb2a356",
+                "url": "https://api.github.com/repos/artkonekt/pdf-invoice/zipball/5b57433d2f30a9e8e7a5b3962aae4f71cfe2b529",
+                "reference": "5b57433d2f30a9e8e7a5b3962aae4f71cfe2b529",
                 "shasum": ""
             },
             "require": {
@@ -2146,7 +2146,7 @@
             "support": {
                 "source": "https://github.com/artkonekt/pdf-invoice"
             },
-            "time": "2021-09-28T14:59:32+00:00"
+            "time": "2021-11-16T09:37:50+00:00"
         },
         {
             "name": "laravel/framework",
