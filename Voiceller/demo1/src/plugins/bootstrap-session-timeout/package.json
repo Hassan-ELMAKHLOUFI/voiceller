@@ -33,7 +33,7 @@
     "grunt-contrib-jshint": "0.7.2",
     "grunt-contrib-uglify": "0.3.3",
     "grunt-contrib-watch": "0.5.3",
-    "jshint-stylish": "0.1.5",
+    "jshint-stylish": "0.4.0",
     "load-grunt-tasks": "0.2.1",
     "time-grunt": "0.2.10"
   }
