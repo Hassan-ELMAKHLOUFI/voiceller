@@ -13,7 +13,7 @@
         "guzzlehttp/guzzle": "7.4.0",
         "joshrainwater/active-users": "2.1",
         "konekt/pdf-invoice": "1.10.1",
-        "laravel/framework": "8.69.0",
+        "laravel/framework": "8.79.0",
         "laravel/socialite": "5.2.5",
         "laravel/tinker": "2.6.2",
         "league/flysystem-aws-s3-v3": "1.0.29",
